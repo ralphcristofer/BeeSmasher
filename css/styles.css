@@ -1,0 +1,78 @@
+* {
+    margin: auto;
+    padding: 0;
+    width: auto;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+header {
+    margin-top: 2%;
+}
+
+img {
+    width: 15%;
+}
+
+body {
+    width: 910px;
+    background-color: palegoldenrod;
+    
+}
+
+main {
+    padding: 20px;
+}
+
+button {
+    display: inline-block;
+    outline: 0;
+    border: none;
+    cursor: pointer;
+    padding: 0 24px;
+    border-radius: 50px;
+    min-width: 200px;
+    height: 50px;
+    font-size: 18px;
+    background-color: #fd0;
+    font-weight: 500;
+    color: #222;
+}
+
+button:hover {
+    color: darkgoldenrod;
+}
+
+canvas {
+    border-radius: 10px;
+}
+
+header, main, canvas {
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+}
+
+header, section > span {
+    flex-direction: column;
+}
+
+section > span {
+    display: flex;
+}
+
+section > span, footer {
+    font-size: 0.75em;
+    text-align: center;
+}
+
+#copy {
+    margin-top: 1em;
+}
+
+#score {
+    font-size: 2em;
+}
+
+footer {
+    margin: 1em 0 1em 0;
+}
